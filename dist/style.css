@@ -1,0 +1,61 @@
+* {
+	box-sizing: border-box;
+}
+#navbar {
+	z-index: 999;
+}
+body {
+	font-family: "hurme-semibold","Helvetica Neue","Helvetica",Arial,Segoe UI Symbol,sans-serif;
+}
+#slider {
+	max-width: 100%;
+	margin-bottom: 50px;
+	position: relative;
+}
+#price{
+	position: absolute;
+	margin: -200px 0px 0px 120px;
+}
+.header {
+	text-align: center;
+	color: #484949;
+}
+#brand-logo {
+	height: 100%;
+	width: 65px;
+}
+.columns {
+	border: 1px solid white;
+}
+#modle-elem{
+	margin-left: 70px;
+}
+.secondRow {
+	margin-top: -34px;
+}
+#gellary {
+	margin: 0px 0px 50px 50px !important;
+	max-width: 100% !important;
+}
+#gallery-container {
+	margin-top: 150px;
+}
+#Info {
+	border: 1px solid #484949;
+	background-color: #484949;
+	margin-top: 30px;
+	height: 100px;
+	max-height: 80px;
+	clear: both;
+	margin-bottom: 2em;
+	padding: 1em 0;
+	text-align: center;
+}
+.icon_ {
+	text-align: center !important;
+	display: inline;
+	margin-left: 10px;
+}
+.icon_ h4 {
+	display: inline;
+}
