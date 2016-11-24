@@ -12,6 +12,33 @@ body {
 	margin-bottom: 50px;
 	position: relative;
 }
+#slider-buttons button{
+	display: inline;
+	text-align: center;
+	border: 1px solid #FFFFFF !important;
+	color: #FFFFFF !important;
+}
+#slider-buttons button:hover {
+	background-color: #FFFFFF !important;
+	color: black !important;
+}
+#slider-content {
+	position: absolute;
+	text-align: center;
+	margin: -500px 0px 0px 500px; 
+}
+#slider-text {
+	color: #FFFFFF;
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+	font-size: 2.625rem;
+}
+#first-text {
+	margin-bottom: 0px;
+}
+#second-text {
+	font-size: 1.125rem;
+}
 #price{
 	position: absolute;
 	margin: -200px 0px 0px 120px;
