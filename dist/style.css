@@ -13,17 +13,13 @@ body {
 	position: relative;
 }
 #slider-buttons button{
-	display: inline;
-	text-align: center;
-	/*border: 1px solid #FFFFFF !important;*/
-	color: #FFFFFF !important;
-	font-weight: bold;
 	width: 100px;
+	margin-top: 30px;
 }
-#slider-buttons button:hover, #sub-buttons button:hover {
+/*#slider-buttons button:hover, #sub-buttons button:hover {
 	background-color: #FFFFFF !important;
 	color: black !important;
-}
+}*/
 #slider-content {
 	position: absolute;
 	text-align: center;
@@ -92,8 +88,15 @@ body {
 	background-color: #FFFFFF !important;
 	color: black !important;
 }
+#input-header {
+	margin-left: 100px;
+	display: block;
+	margin-bottom: -20px;
+}
+#inputField{
+	margin-left: 100px;
+}
 #subscribe {
-	margin: 0px 0px 30px 100px;
 	display: inline;
 }
 #sub-buttons {
@@ -113,5 +116,26 @@ body {
 }
 #follow {
 	display: inline-block;
+	margin-left: 200px;
+}
+#follow i {
+	color: #FFFFFF;
+}
+#follow i:hover {
+	color: black;
+	background-color: #FFFFFF;
+}
+#description {
+	background-color: #FFFFFF/*#1b1c1d*/;
+	border: none !important;
+	text-align: center;
+}
+#second-content-footer {
+	margin-bottom: 30px;
+}
+#store-info {
+	background-color: #FFFFFF;
+	height: 300px;
+	margin-bottom: -15px;
 }
 /*END*/
