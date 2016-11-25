@@ -15,10 +15,12 @@ body {
 #slider-buttons button{
 	display: inline;
 	text-align: center;
-	border: 1px solid #FFFFFF !important;
+	/*border: 1px solid #FFFFFF !important;*/
 	color: #FFFFFF !important;
+	font-weight: bold;
+	width: 100px;
 }
-#slider-buttons button:hover {
+#slider-buttons button:hover, #sub-buttons button:hover {
 	background-color: #FFFFFF !important;
 	color: black !important;
 }
@@ -85,5 +87,31 @@ body {
 }
 .icon_ h4 {
 	display: inline;
+}
+.icon_ i:hover {
+	background-color: #FFFFFF !important;
+	color: black !important;
+}
+#subscribe {
+	margin: 0px 0px 30px 100px;
+	display: inline;
+}
+#sub-buttons {
+	display: inline;
+}
+#sub-buttons button {
+	width: 100px;
+	text-align: center;
+}
+#sub-buttons button:hover {
+	background-color: grey !important;
+	color: black !important;
+}
+#sub-input {
+	width: 290px;
+	margin-right: 3.500px;
+}
+#follow {
+	display: inline-block;
 }
 /*END*/
