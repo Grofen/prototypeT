@@ -137,5 +137,27 @@ body {
 	background-color: #FFFFFF;
 	height: 300px;
 	margin-bottom: -15px;
+	color: #484949;
+	text-align: left;
+}
+#store-info p {
+	font-size: 12px;
+}
+#store-info a {
+	display: block;
+	color: #484949;
+}
+.headers {
+	margin: 20px 0px 0px 100px;
+	display: inline-block;
+	max-width: 200px;
+}
+#service a{
+	
+}
+#store-locator input{
+	background-color: #e8e9ed;
+	border: none !important;
+	width: 200px;
 }
 /*END*/
